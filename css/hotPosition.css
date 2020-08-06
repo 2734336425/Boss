@@ -1,0 +1,258 @@
+.divA{
+	clear: both;
+    margin-top: 37px;
+    overflow: hidden;
+    width: 1184px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.divA>a{
+	display: block;
+	font-size: 24px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 24px;
+}
+.divA>a:before,.divA>a:after{
+	content: '';
+    display: inline-block;
+    vertical-align: 8px;
+    margin: 0 10px;
+    width: 50px;
+    height: 1px;
+    background: #d1d4db;
+}
+.divB{
+	height: 50px;
+    position: relative;
+    padding-left: 20px;
+    background: #fff;
+    margin-bottom: 10px;
+    margin-right: -77px;
+}
+.divB>span{
+	position: relative;
+    display: inline-block;
+    margin-right: 73px;
+    line-height: 50px;
+    color: #8d92a1;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+.divB>span:after{
+	content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+}
+.divB>span:last-child{
+	margin-right: 0;
+}
+.divC,.cur{
+	font-weight: 400;
+    display: none;
+    width: 110%;
+    overflow: hidden;
+}
+.divA .hot-block{
+	display: block;
+}
+.defaultDiv{
+	display: inline-block;
+}
+.divC li{
+	height: 130px;
+    width: 384px;
+    float: left;
+    margin: 0 16px 16px 0;
+    background: #fff;
+}
+.divD{
+	display: block;
+    height: 130px;
+    width: 384px;
+    font-size: 0;
+
+}
+.divD p {
+    line-height: 35px;
+    font-size: 16px;
+    color: #61687c;
+    position: relative;
+}
+.user-info{
+	vertical-align: middle;
+    margin-right: 20px;
+    margin-left: 30px;
+    display: inline-block;
+}
+.user-info p{
+	font-size: 14px;
+    width: auto;
+    padding-right: 0;
+    border: 1px solid #f3f5fb;
+    border-radius: 4px;
+}
+.user-info p img{
+	width: 58px;
+    height: 58px;
+    vertical-align: middle;
+}
+.job-info{
+	padding-top: 17px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.job-info .name{
+	max-width: 192px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.job-info .name-text{
+	max-width: 192px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.job-text{
+	font-size: 14px;
+    color: #61687c;
+    padding-right: 0;
+    line-height: 28px;
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.job-text span{
+	display: inline-block;
+    width: 1px;
+    height: 12px;
+    vertical-align: middle;
+    background: #e0e0e0;
+    margin: 0 10px;
+}
+.divC .divD .salary{
+	color: #fc6c38;
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.divC li:hover,.cur-li:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,.05);
+}
+.divE{
+	text-align: center;
+    margin-top: 4px;
+}
+.divE a{
+	width: 382px;
+    font-size: 15px;
+    height: 32px;
+    line-height: 32px;
+    background: #f6f6f8;
+    color: #00c2b3;
+    display: inline-block;
+    min-width: 112px;
+    box-sizing: content-box;
+    border: 1px #5dd5c8 solid;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+.divE a:hover{
+	background: #5dd5c8;
+    color: #fff;
+}
+.divA .cur{
+	display: block;
+}
+.divA .cur li{
+    height: 238px;
+    width: 284px;
+    float: left;
+    margin: 0 16px 16px 0;
+    background: #fff;
+    position: relative;
+}
+.divA .cur .cur-li{
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+.divA .cur .cur-li .company-info{
+	margin: 0 20px 10px;
+    padding-top: 30px;
+    color: #414a60;
+    display: block;
+}
+.divA .cur .cur-li .img-box{
+	text-align: center;
+    margin-bottom: 14px;
+}
+.divA .cur .cur-li .img-box img{
+	height: 58px;
+    width: 58px;
+    vertical-align: middle;
+    border: 1px solid #f3f5fb;
+    border-radius: 9px;
+}
+.divA .cur .cur-li .conpany-text{
+    margin-bottom: 11px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.divA .cur .cur-li .conpany-text h4{
+	margin-bottom: 10px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.divA .cur .cur-li .conpany-text p{
+	height: 18px;
+    line-height: 18px;
+    color: #898e9d;
+    font-size: 12px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.divA .cur .cur-li .conpany-text .vline{
+	display: inline-block;
+    width: 1px;
+    height: 12px;
+    vertical-align: middle;
+    background: #e0e0e0;
+    margin: 0 10px;
+}
+.divA .cur .cur-li .about-info{
+	width: 180px;
+    height: 34px;
+    color: #61687c;
+    line-height: 34px;
+    font-size: 12px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #e3e7ed;
+    display: block;
+}
+.divA .cur .cur-li .about-info .text-blue{
+	color: #00c2b3;
+}
+.conpany-text h4:hover{
+	color: #00D7C6;
+}
+.divA .cur .cur-li .about-info:hover{
+	border: 1px solid #5DD5C8;
+}

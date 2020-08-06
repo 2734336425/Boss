@@ -1,0 +1,153 @@
+a {
+    text-decoration: none;
+    color: #111;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+    color: #414a60;
+}
+
+.other-footer{
+    background: #fff;
+    padding: 20px 0 10px;
+    margin-top: 43px;
+    position: relative;
+    z-index: 22;
+    color: #8d92a1;
+    border-top: solid 1px #f6f6f8;
+}
+
+.other-footer a:hover{
+    color: #00d7c6;
+}
+
+.footer-inner{
+    position: relative;
+    width: 1184px;
+    margin: 0 auto;
+}
+
+.footer-social{
+    position: absolute;
+    font-size: 12px;
+    text-align: right;
+    right: 0;
+    top: 0;
+}
+
+.footer-social img {
+    margin: 6px 0 7px 0;
+    width: 88px;
+    height: 16px;
+}
+
+.footer-social p{
+    text-align: right;
+    padding: 0;
+    font-size: 13px;
+}
+
+.footer-social p img {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-icon {
+    margin-top: 20px;
+}
+
+.icon-app, .icon-weibo, .icon-weixin {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px #eaebee solid;
+    border-radius: 100%;
+    margin-left: 23px;
+    vertical-align: top;
+    display: inline-block;
+    background: url(https://www.zhipin.com/v2/web/geek/images/icons.png) no-repeat;
+}
+
+.icon-weibo {
+    background-position: 10px -190px;
+}
+
+.icon-weixin {
+    background-position: 10px -254px;
+    position: relative;
+}
+
+.icon-weixin:hover img{
+    display: block;
+}
+
+.qrcode-weixin{
+    display: none;
+    position: absolute;
+    right: -25px;
+    bottom: 50px;
+    background: #fff;
+}
+
+.icon-app {
+    background-position: 6px -313px;
+}
+
+.footer-about dl {
+    width: 192px;
+    float: left;
+}
+
+.footer-about dl dt {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #414a60;
+    margin-bottom: 10px;
+}
+
+.footer-about dl dd a, .footer-about dl dd p {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    color: #8d92a1;
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer-about dl dd .report-mail {
+    display: inline;
+    font-size: 12px;
+    color: #8d92a1;
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.footer-about:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.copyright {
+    color: #eeeff3;
+    font-size: 12px;
+    margin-top: 20px;
+    max-width: 900px;
+}
+
+.copyright img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: -5px 0 0 0;
+    margin-right: 0;
+}
+
+.copyright span {
+    color: #8d92a1;
+    display: inline-block;
+    margin-right: 15px;
+}

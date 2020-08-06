@@ -1,0 +1,146 @@
+a {
+    text-decoration: none;
+    /*color: #414a60;*/
+}
+
+.search{
+    position: relative;
+    z-index: 1003;
+}
+
+.search-inner{
+    width: 1184px;
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+.search-box{
+    width: 934px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.search-form .search-logo{
+    /*display: block;*/
+    display: none;
+    float: left;
+    padding: 6px 0 0 0;
+}
+
+.search-form .search-logo a{
+    display: block;
+    width: 110px;
+    height: 36px;
+    margin-right: 30px;
+    background: url(../img/logo-2x.png) 3px 7px no-repeat;
+    background-size: 105px 19px;
+}
+
+.search-logo a span{
+    display: none;
+}
+
+.search-form-con{
+    width: 794px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.13);
+    float: left;
+}
+
+.search-box-sel{
+    width: 99px;
+    float: left;
+    border-color: #fff;
+    border-left: 1px solid #fff;
+    padding: 9px 15px 11px 15px;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+    border-right: none;
+    line-height: 30px;
+    height: 28px;display: block;
+    cursor: pointer;
+}
+
+.search-lable-text{
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.search-lable-text b{
+    font-size: 16px;
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    color: #61687c;
+    font-weight: 400;
+}
+
+.icon-arrow-down{
+    position: absolute;
+    right: 8px;
+    top: 15px;
+    display: inline-block;
+    background: url(../img/main-icons.png) no-repeat;
+    background-position: 0 -2044px;
+    width: 16px;
+    height: 16px;
+}
+
+.search-ipt-wrap{
+    height: 48px;
+    border-color: #fff;
+    overflow: hidden;
+    background: #fff;
+    border-left: none;
+    border-right: none;
+    position: relative;
+}
+
+.search-ipt{
+    width: 626px;
+    font-size: 16px;
+    padding: 10px 19px;
+    color: #414a60;
+    border: 0;
+    height: 28px;
+    line-height: 30px;
+    outline: 0;
+}
+
+.search-btn{
+    height: 48px;
+    line-height: 48px;
+    background-image: none;
+    font-size: 16px;
+    width: 140px;
+    float: right;
+    background-position: 34px -138px;
+    min-width: 0;
+    text-align: center;
+    color: #fff;
+    background: #55cbc4;
+    border: 0;
+}
+
+.search-hot{
+    padding: 9px 0 26px 0;
+    font-size: 13px;
+    color: #9fa3b0;
+}
+
+.search-hot b{
+    margin-right: 18px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.search-hot a{
+    color: #00c2b3;
+    display: inline-block;
+    margin-right: 22px;
+}

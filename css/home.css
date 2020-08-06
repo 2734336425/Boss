@@ -1,0 +1,153 @@
+ul {
+	list-style: none;
+}
+
+.home a {
+	text-decoration: none;
+	color: #61687c;
+}
+
+.home_box {
+	width: 1184px;
+	margin: 0 auto;
+}
+
+.home_box_sider {
+	display: inline-block;
+}
+
+.home_box_sider_ul {
+	float: left;
+	width: 384px;
+	background-color: #fff;
+}
+
+.home_box_sider_ul ul {
+	padding-inline-start: 0;
+	margin: 0;
+}
+
+.home_box_sider_ul a {
+	margin-left: 16px;
+	font-size: 13px;
+}
+
+.home_box_sider_ul .show_box_down a{
+	font-size: 14px;
+}
+
+.home_box_sider_skill {
+	padding: 8px 20px 9px;
+}
+
+
+.show {
+	height: 2.625rem;
+	line-height: 2.1875rem;
+}
+
+#show_all {
+	border-top: dashed 1px #ecedef;
+	padding-inline-start: 0px;
+	position: absolute;
+	background-color: #fff;
+    width: 384px;
+}
+
+#all {
+	color: #00c2b3;
+	line-height: 2.5rem;
+}
+
+.show_box_all {
+	position: relative;
+}
+
+
+.box {
+	width: 40.5rem;
+	background: white;
+	border: 1px solid #fff;
+	position: absolute;
+	/* height: 20.4375rem; */
+	left: 100%;
+	z-index: 100;
+	top: 0;
+	padding: 1.25rem 1.875rem 1.25rem 0.625rem;
+	box-shadow: 0 0.0625rem 0.375rem rgba(6, 0, 1, .1);
+	display: none;
+}
+
+.show_box_all:hover .box {
+	display: block;
+}
+
+.show_box_all:hover .home_box_sider_skill {
+	background-color: #5dd5c8;
+	color: #fff;
+}
+
+.show_box_all:hover .home_box_sider_skill a {
+	color: #fff;
+}
+
+
+.box ul {
+	/* height: 31.25rem; */
+}
+
+.box li {
+	display: flex;
+	/* height: 4.0625rem; */
+}
+
+.box h4 {
+	/* height: 42px; */
+	width: 12.5rem;
+	margin: 0;
+	font-weight: 400;
+	color: #8d92a1;
+}
+
+.box_right_text a {
+	margin-left: 0;
+	margin-right: 1.5625rem;
+	line-height: 1.75rem;
+}
+
+.box_right_text {
+	border-bottom: solid 1px #f5f6f9;
+	width: 50rem;
+	display: inline-block;
+	line-height: 28px;
+	padding: 0 0 10px 1px;
+}
+
+
+.show_one {
+	position: relative;
+	z-index: 100;
+	width: 384px;
+	background-color: #fff;
+	display: none;
+}
+
+.show_box_down:hover .show_one {
+	display: block
+}
+
+
+.home_box_main {
+	margin-left: 398px;
+    min-width: 697px;
+    height: 340px;
+}
+
+.slider_box a{
+	position: relative;
+	display: inline-block;
+}
+
+.slider_box a:nth-of-type(3),.slider_box a:nth-of-type(4){
+	bottom: 5px;
+}
