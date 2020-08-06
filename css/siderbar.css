@@ -1,0 +1,139 @@
+ul{
+    text-decoration: none;
+}
+
+.siderbar{
+    position: fixed;
+    top: 48px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: -1px 0 8px rgba(0,0,0,.03);
+    height: 100%;
+    z-index: 1004;
+}
+
+.siderbar a:hover{
+    color: #54CBC4;
+}
+
+.sider-index{
+    width: 40px;
+    height: 100%;
+    float: left;
+    position: relative;
+    transition: .2s width;
+}
+
+.siderbar-top{
+    width: 100%;
+    float: left;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.siderbar-top li,.siderbar-bottom li{
+    display: block;
+    position: relative;
+    font-size: 12px;
+    color: #9fa3b0;
+    line-height: 14px;
+}
+
+.siderbar-top li a,.siderbar-bottom li a{
+    padding: 10px 0;
+    display: block;
+}
+
+.siderbar-top li a i{
+    display: block;
+    width: 21px;
+    height: 21px;
+    margin: 0 auto 10px;
+    background: url(../img/siderbar.png) no-repeat;
+    background-size: 42px auto;
+}
+
+.siderbar-top .icon-sider-interest {
+    background-position: 0 -62px;
+}
+
+.siderbar-top .icon-sider-chat {
+    background-position: 0 -21px;
+}
+
+.siderbar-top .icon-sider-resume {
+    background-position: 0 -42px;
+}
+
+.siderbar-top .icon-sider-interview {
+    background-position: 0 -84px;
+}
+
+.siderbar a:hover .icon-sider-interest {
+    background-position: -21px -62px;
+}
+
+.siderbar a:hover .icon-sider-chat {
+    background-position: -21px -21px;
+}
+
+.siderbar a:hover .icon-sider-resume {
+    background-position: -21px -42px;
+}
+
+.siderbar a:hover .icon-sider-interview {
+    background-position: -21px -84px;
+}
+
+.siderbar-bottom{
+    bottom: 80px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.siderbar-back-top:after{
+    content: '';
+    display: block!important;
+    width: 21px;
+    height: 13px;
+    margin: 0 auto;
+    background: url(../img/siderbar.png) no-repeat;
+    background-size: 42px auto;
+    background-position: 0 0;
+}
+
+.qrcode-layer{
+    display: none;
+    position: absolute;
+    right: 55px;
+    top: -128px;
+    width: 196px;
+    height: 196px;
+    border: 1px #eee solid;
+    background: #fff;
+    z-index: 10;
+}
+
+.qrcode-layer i{
+    width: 12px;
+    height: 21px;
+    background-position: 0 -697px;
+    position: absolute;
+    top: 132px;
+    right: -12px;
+    display: inline-block;
+    background-image: url(../img/main-icons.png);
+    background-repeat: no-repeat;
+}
+
+.qrcode-layer img{
+    display: block;
+    width: 134px;
+    height: 134px;
+    margin: 16px auto 0;
+}
+
+.siderbar-wechat:hover .qrcode-layer,.siderbar-app:hover .qrcode-layer {
+    display: block;
+}
