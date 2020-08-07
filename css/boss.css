@@ -174,3 +174,14 @@ a {
     background-position: 5px -786px;
     vertical-align: middle;
 }
+@font-face {
+	font-family: "yj";
+	src: url(../fonts/icomoon.svg) format('svg'), url(../fonts/icomoon.eot) format('embedded-opentype'), url(../fonts/icomoon.ttf) format('truetype'), url(../fonts/icomoon.woff) format('woff');
+}
+.fz {
+    font-family: yj;
+	margin-right: 5px;
+}
+.fz-slidedown::before{
+	content: "\ea43";
+}
