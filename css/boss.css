@@ -56,7 +56,6 @@ body{
 .city-page-btn.prev {
     display: none;
     left: 0;
-    background: rgba(0,0,0,.3) url(../images/city-prev.png) center center no-repeat;
 }
 .city-page-btn {
     position: absolute;
@@ -68,7 +67,6 @@ body{
 }
 .city-page-btn.next {
     right: 0;
-    background: rgba(0,0,0,.3) url(../images/city-next.png) center center no-repeat;
 }
 .city-page-btn {
     position: absolute;
