@@ -174,14 +174,17 @@ a {
     background-position: 5px -786px;
     vertical-align: middle;
 }
-@font-face {
-	font-family: "yj";
-	src: url(../fonts/icomoon.svg) format('svg'), url(../fonts/icomoon.eot) format('embedded-opentype'), url(../fonts/icomoon.ttf) format('truetype'), url(../fonts/icomoon.woff) format('woff');
+.waibao .links img{
+	vertical-align: middle;
 }
-.fz {
-    font-family: yj;
-	margin-right: 5px;
+.waibao .links dl dd a:hover{
+	color: #00C2B3;
 }
-.fz-slidedown::before{
-	content: "\ea43";
+.down{
+	transform: rotate(180deg);
+}
+.waibao{
+	height: 134px;
+	width: 100%;
+	overflow: hidden;
 }
