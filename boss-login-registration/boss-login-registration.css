@@ -1,0 +1,165 @@
+body{
+	margin: 0;
+}
+.all{
+	background: url(img/app-bg.png) no-repeat;
+	background-color:#5dd5c8;
+	position: absolute;
+	height: 100%;
+	width: 100%; 
+	background-position: bottom;
+}
+.box{
+    width: 740px;
+	height: 500px;
+	background-color: #FFFFFF;
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 580px;
+	border-radius: 12px;
+}
+.password_login_left{
+	height: 500px;
+	width: 240px;
+	background-color: #f8fcff;
+	border-radius: 12px;
+}
+.psw_letf_logo{
+	height: 40px;
+	font-size: 14px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	margin-top: 88px;
+	margin-left: 40px;
+	color: #00c2b3;
+}
+.psw_letf_logo img{
+	width: 42px;
+	height: 42px;
+	padding-right: 10px;
+}
+.psw_letf_text{
+	position:absolute;
+	margin-top:180px ;
+	margin-left: -8px;
+	height: 142px;
+	width: 200px;
+}
+li{
+    list-style: none;	
+	margin-bottom: 65px;
+}
+.text_one{
+	font-size: 16px;
+	color: #8d92a1;
+	position: absolute;
+	margin-top: -3px;
+	margin-left: 17px;
+	font-weight: 700;
+}
+.text_two{
+	font-size: 13px;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 63px;
+	color: #b0b4c1;
+}
+.text_three{
+	font-size: 16px;
+	color: #8d92a1;
+	position: absolute;
+	margin-top: -3px;
+	margin-left: 17px;
+	font-weight: 700;
+}
+.text_four{
+	font-size: 13px;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 63px;
+	color: #b0b4c1;
+}
+.password_login_right{
+	height: 500px;
+    width:500px;
+	/* background-color: red; */
+	border-radius: 12px;
+}
+.psw_login_right_box{
+	height: 380px;
+	width: 324px;
+	/* background-color: red; */
+	margin: 0 auto;
+	margin-top: 68px;
+}
+.password_login{
+	display: flex;
+}
+.title{
+	display: inline-block;
+    display: flex;
+    margin-left: -50px;
+	font-size: 14px;
+	margin-right: -10px;
+}
+.title li{
+	border:1px solid rgba(227,231,237,1);
+	margin: 10px;
+	width: 157px;
+	height: 42px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.title li:hover{
+	color: #53cac3;
+	border:1px solid #53CAC3;
+}
+.psw_right_box_up{
+    height: 42px;
+    width: 323px;
+	border: 1px solid rgba(227,231,237,1);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 157px;
+}
+.psw_right_box_up:hover{
+	border-color:#53CAC3;
+}
+.phone_number{
+	border: none;
+	outline: none;
+}
+.psw_right_box_middle{
+    height: 42px;
+	width: 323px;
+	position: absolute;
+	top: 232px;
+	border: 1px solid rgba(227,231,237,1);
+	display: flex;
+}
+.password{
+	border: none;
+	outline: none;
+}
+.psw_right_box_verify{
+	 width: 323px;
+	 height: 42px;
+	 border: 1px solid rgba(227,231,237,1);
+	 background-color: blanchedalmond;
+	 position: absolute;
+	 top: 308px;
+}
+.psw_right_box_middle:hover{
+	border-color:#53CAC3;
+}
+.psw_right_box_btn{
+	width: 323px;
+	height: 42px;
+	background-color: #00d7c6;
+	position: absolute;
+	top: 380px;
+	color:white;
+}
