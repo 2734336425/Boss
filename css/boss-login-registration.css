@@ -168,3 +168,22 @@ li{
 	justify-content: center;
 	align-items: center;
 }
+.psw_right_down{
+	position:absolute;
+	top: 455px;
+}
+.psw_right_down a{
+	text-decoration: none;
+	font-size: 14px;
+}
+.wechat_login{
+	color: #b0b4c1;
+	size: 14px;
+}
+.sweep{
+	color: #53CAC3;
+	padding: 54px;
+}
+.free_registrantion{
+	color: #53CAC3;
+}
