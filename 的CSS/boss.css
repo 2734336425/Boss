@@ -5,6 +5,109 @@
 body{
 	background: #F6F6F8;
 }
+.sidebar {
+	width: 60px;
+	height: 392px;
+	position: fixed;
+	z-index: 999999;
+	left: 50%;
+	right: auto;
+	margin-left: 613px;
+}
+
+.sidebar a {
+	color: #424242;
+}
+
+.ig {
+	position: relative;
+	display: block;
+	width: 60px;
+	height: 64px;
+	margin-top: -1px;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin: auto;
+	text-align: center;
+}
+
+.ig span {
+	display: block;
+	width: 60px;
+	height: 64px;
+	text-align: center;
+	line-height: 60px;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ig:hover {
+	color: #FF6700;
+	text-decoration: none;
+}
+
+.fpx {
+	display: none;
+}
+
+.jpg {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	width: 130px;
+	height: 200px;
+	background: white;
+	margin-top: -38px;
+	margin-left: -192px;
+	font-size: 14px;
+	color: #54CBC4;
+	background: white url(../img/wechat-qrcode.jpg) no-repeat center 20px/100px 100px;
+	display: none;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 0 15px;
+}
+
+.sidebar .txt {
+	display: block;
+	position: absolute;
+	bottom: 15px;
+	font-size: 14px;
+	width: 120px;
+	text-align: center;
+}
+@font-face {
+	font-family: "yj";
+	src: url(../fonts/icomoon.svg) format('svg'), url(../fonts/icomoon.eot) format('embedded-opentype'), url(../fonts/icomoon.ttf) format('truetype'), url(../fonts/icomoon.woff) format('woff');
+}
+
+.E {
+	font-family: yj;
+	margin-right: 5px;
+}
+
+.edg::before {
+	content: "\e959";
+}
+
+.rng::before {
+	content: "\e971";
+}
+
+.omg::before {
+	content: "\e991";
+}
+
+.lng::before {
+	content: "\e910";
+}
+
+.jdg::before {
+	content: "\e93a";
+}
+
+.blg::before {
+	content: "\ea3a";
+}
 .common-tab-box {
     clear: both;
     margin-top: 37px;
