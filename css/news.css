@@ -1,0 +1,231 @@
+.list-banner{
+    height: 398px;
+    background: url(../img/list-banner.jpg) center 0 no-repeat #3d4f5e;
+    background-size: cover;
+}
+
+.inner{
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+.list-banner .text {
+    text-align: center;
+    color: #fff;
+    padding-top: 108px;
+}
+
+.list-banner .text h1 {
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+
+.list-banner .btns {
+    margin-top: 50px;
+}
+
+.list-banner .btn, .list-banner .btn:hover {
+    box-shadow: none;
+}
+
+.card-back .btn, .list-banner .btn {
+    display: inline-block;
+    width: 188px;
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    background: #59cac2;
+    font-size: 18px;
+    border-radius: 24px;
+    box-shadow: -2px -2px 5px rgba(89,202,194,.3), 2px 2px 5px rgba(89,202,194,.3);
+    font-weight: 300;
+}
+
+.btn, .ipt {
+    transition: all linear .2s;
+}
+
+.list-card {
+    padding: 40px 10px;
+    background: #fff;
+    margin-top: -68px;
+    position: relative;
+    z-index: 1;
+}
+
+.list-card ul {
+    display: table;
+    width: 100%;
+}
+
+.list-card li {
+    display: table-cell;
+    border-right: 1px #ededed solid;
+}
+
+.list-card .title {
+    width: 284px;
+    margin: 0 auto;
+}
+
+.hot-news .title .more, .list-card .title .more {
+    float: right;
+}
+
+a.more {
+    display: inline-block;
+    width: 47px;
+    height: 18px;
+    line-height: 16px;
+    border: 1px #bebebe solid;
+    border-radius: 10px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: arial,Verdana;
+}
+
+.list-card .title b {
+    display: inline-block;
+    font-size: 17px;
+    height: 17px;
+    line-height: 17px;
+    border-left: 3px #59cac2 solid;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+.list-card .text {
+    width: 284px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.list-card .img-wrap .img,.list-news .img-wrap .img {
+    display: block;
+    width: 284px;
+    height: 156px;
+    overflow: hidden;
+}
+
+.list-card .img-wrap .img img,.list-news .img-wrap .img img{
+    transition: all ease-out .3s;
+}
+
+.list-card .img-wrap .img:hover img,.list-news .img-wrap .img:hover img {
+    transform: scale(1.05,1.05);
+}
+
+.list-card .text-title {
+    font-size: 20px;
+    margin: 30px 0 10px;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.list-card .text-view {
+    font-size: 14px;
+}
+
+.list-card .text-view a {
+    color: #999;
+}
+
+.list-card li:last-of-type {
+    border-right: 0;
+}
+
+.list-news {
+    padding: 25px 100px;
+    background: #fff;
+    margin-top: 15px;
+}
+
+.list-news li {
+    padding: 35px 0;
+    border-bottom: 1px #ededed solid;
+}
+
+.list-news li:last-of-type {
+    border-bottom: 0;
+}
+
+.list-news .img-wrap {
+    float: left;
+    width: 284px;
+    height: 156px;
+    position: relative;
+}
+
+.list-news .img-wrap .badge {
+    position: absolute;
+    width: 56px;
+    height: 24px;
+    padding-left: 5px;
+    top: 12px;
+    left: -5px;
+    background: url(../img/sub-icons.png) 0 0 no-repeat;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.list-news .text {
+    margin-left: 330px;
+}
+
+.list-news .text-title {
+    font-size: 20px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list-news .summary {
+    height: 75px;
+    line-height: 25px;
+    color: #666;
+    padding: 20px 0 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.info {
+    color: #999;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.info .author {
+    float: left;
+}
+
+.info .author em {
+    display: inline-block;
+    font-style: normal;
+    vertical-align: middle;
+    margin: 0 5px;
+    font-weight: 700;
+}
+
+.load-more {
+    display: block;
+    line-height: 60px;
+    border: 1px #f0f0f0 solid;
+    text-align: center;
+    color: #bbb;
+    font-size: 16px;
+}
+
+.load-more:hover {
+    background: #fafafa;
+}
+
+a:hover {
+    color: #53cac3;
+    text-decoration: none;
+}
