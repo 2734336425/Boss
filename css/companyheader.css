@@ -1,0 +1,36 @@
+.header{
+	margin: 0 auto;
+	width: 1300px;
+	background-color: white;
+	height: 200px;
+
+}
+
+.header div:first-child{
+	padding-top: 20px;
+}
+.header div:not(:first-child){
+	margin-top: 20px;
+}
+.header div{
+	margin-left: 55px;
+	display: flex;
+}
+.header span:first-child{
+	width: 100px;
+
+}
+.header span:last-child{
+	/*flex-grow: 1;*/
+	width: 1145px;
+}
+.header a{
+	margin-right: 20px;
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+}
+.text_span a:hover{
+	color: #35d8e0;
+}
+
