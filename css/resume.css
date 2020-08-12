@@ -4,7 +4,7 @@ a {
 }
 
 .resume_all {
-	background-color: #f1f1f1;
+	background-color: #f6f6f8;
 }
 
 .resume_middle {
@@ -157,6 +157,7 @@ a {
 	font-size: 14px;
 }
 
+
 .middle_uploading {
 	position: relative;
 	width: 284px;
@@ -237,12 +238,63 @@ a {
 	color: #9fa3af;
 }
 
+.middle_uploading_liveness {
+	background: #fff;
+	padding: 20px 30px 0px;
+	margin-bottom: 16px;
+	position: relative;
+	margin-top: 16px;
+
+}
+
+.uploading_liveness_first {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.uploading_liveness_first h4 {
+	color: #414a60;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+}
 
 
 
 
 
+.liveness_box {
+	position: absolute;
+	padding: 6px 6px 6px 6px;
+	width: 211px;
+	top: -20px;
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .2);
+	left: -258px;
+	background: white;
+	display: none;
+}
 
+.liveness_box_all:hovor .liveness_box {
+	display: block;
+}
+
+
+
+
+.liveness_box_all a :hover {
+	color: #00c2b3;
+	cursor: pointer;
+}
+
+
+.liveness_img {
+	text-align: center;
+}
+
+.liveness_time span:last-child {
+	color: #00D7C6;
+}
 
 
 
