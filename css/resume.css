@@ -76,9 +76,10 @@ a {
 
 
 .edit {
-	position: absolute;
+	/* position: absolute; */
 	right: 3px;
 	bottom: 25px;
+	width: 100%;
 
 }
 
@@ -88,6 +89,7 @@ a {
 
 .edit a {
 	color: #00c2b3;
+	float: right;
 }
 
 .edit a:hover {
@@ -142,6 +144,7 @@ a {
 .edit1 {
 	position: absolute;
 	right: 3px;
+	/* width: 100%; */
 	top: 28px;
 }
 
@@ -155,6 +158,43 @@ a {
 
 .edit1 span {
 	font-size: 14px;
+}
+
+.edit_box_all{
+	    width: 100%;
+	    position: absolute;
+	    top: 0;
+		padding: 0 0 25px 0;
+	    background: #f8f9fb;
+	    z-index: 999;
+		display: none;
+	
+}
+.edit:hover .edit_box_all{
+	display: block;
+}
+.edit_box{
+	font-size: 0;
+}
+.form_item{
+	width: 40%;
+	    display: inline-block;
+	    padding: 0 30px;
+}
+.item_label{
+	font-size: 14px;
+}
+.item_content{
+	
+}
+
+.input{
+	    height: 38px;
+	    width: 100%;
+	    font-size: 14px;
+	    border: 1px solid #e3e7ed;
+	    padding-left: 15px;
+	    padding-right: 15px;
 }
 
 
@@ -275,7 +315,7 @@ a {
 	display: none;
 }
 
-.liveness_box_all:hovor .liveness_box {
+.liveness_box_all:hover .liveness_box {
 	display: block;
 }
 
